@@ -1,33 +1,39 @@
+@import url('https://fonts.cdnfonts.com/css/harabara');
 body {
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     height: 100vh;
     margin: 0;
-    font-family: Arial, sans-serif;
 }
 
-.roulette {
+input {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
     text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    background-color: #e2001a;
+    color: #fff;
 }
 
-.wheel {
-    position: relative;
-    width: 300px;
-    height: 300px;
-    border: 2px solid #333;
-    border-radius: 50%;
-    overflow: hidden;
+input:hover {
+    background-color: black;
+    transition: background-color 0.3s ease;
 }
 
-.sector {
-    position: absolute;
-    width: 50%;
-    height: 50%;
-    background-color: #f00;
-    transform-origin: 100% 100%;
-    clip-path: polygon(100% 100%, 100% 0, 0 0);
+h1 {
+    margin: 0;
+    font-family: 'Harabara', sans-serif;
+    font-weight: 900;
 }
 
-
-/* Ajoutez des styles supplémentaires au besoin */
+h4 {
+    font-family: 'Harabara', sans-serif;
+}
