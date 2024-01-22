@@ -1,9 +1,9 @@
 var options = [
-    { src: '1.jpg', title: '1 Margherita' },
-    { src: 'img2.png', title: '1 Boison' },
-    { src: 'img3.png', title: '1 Tiramisu' },
-    { src: 'img4.png', title: '4 Tenders' },
-    { src: 'img4.png', title: '1 Muffin' },
+    { src: 'img/Margherita.png', title: '1 Margherita' },
+    { src: 'img/Boison.png', title: '1 Boison' },
+    { src: 'img/Tiramisu.png', title: '1 Tiramisu' },
+    { src: 'img/Nuggets.png', title: '4 Nuggets' },
+    { src: 'img/Muffin.png', title: '1 Muffin' },
     // ... Ajoutez autant d'images que nécessaire avec les titres correspondants
 ];
 
