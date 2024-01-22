@@ -4,11 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Roulette</title>
 </head>
 
 <body>
+    <div class="roulette">
+        <div class="wheel" id="wheel">
+            <div class="sector" data-id="1">1</div>
+            <div class="sector" data-id="2">2</div>
+            <!-- Ajoutez autant de secteurs que nécessaire -->
+        </div>
+        <button onclick="spin()">Tourner</button>
+    </div>
 
+    <script src="script.js"></script>
 </body>
 
 </html>
