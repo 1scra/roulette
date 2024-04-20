@@ -1,12 +1,12 @@
 # Projet Roulette des Prix
 
 ## Description
-Ce projet vise à créer une roulette interactive sur un site web où les utilisateurs peuvent gagner des prix après avoir publié un avis sur Google Maps. La roulette présentera quatre prix différents parmi lesquels les utilisateurs pourront choisir.
+Ce projet vise à créer une roulette interactive sur un site web où les utilisateurs peuvent gagner des prix après avoir publié un avis sur Google Maps. La roulette présentera cinq prix différents parmi lesquels les utilisateurs pourront choisir.
 
 **Note importante : Le projet est en cours de développement.**
 
 ## Fonctionnalités principales
-- Roulette interactive avec cinque produits a gagner.
+- Roulette interactive avec cinq produits a gagner.
 - Déblocage de la roulette après avoir publié un avis sur Google Maps.
 - Possibilité de tourner la roulette pour gagner un prix.
 - Formulaire pour saisir l'adresse e-mail et le nom après avoir gagné un prix.
